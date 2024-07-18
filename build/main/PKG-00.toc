@@ -391,36 +391,9 @@
   ('_sqlite3.pyd',
    'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_sqlite3.pyd',
    'EXTENSION'),
-  ('VCRUNTIME140.dll',
-   'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-heap-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
@@ -430,17 +403,44 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
+  ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
    'BINARY'),
   ('api-ms-win-crt-locale-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
+  ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
   ('libcrypto-3.dll',
    'C:\\Users\\LENOVO\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libcrypto-3.dll',
@@ -484,93 +484,21 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-crt-private-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
+  ('api-ms-win-core-console-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-fibers-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
@@ -580,13 +508,85 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-21.0.3.9-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
    'BINARY'),
   ('Attendance\\Attendance.csv',
    'A:\\AI Attendance\\FRAS\\Attendance\\Attendance.csv',
@@ -1538,6 +1538,7 @@
    'DATA'),
   ('setup_database.sql', 'A:\\AI Attendance\\FRAS\\setup_database.sql', 'DATA'),
   ('template.html', 'A:\\AI Attendance\\FRAS\\template.html', 'DATA'),
+  ('train_model.py', 'A:\\AI Attendance\\FRAS\\train_model.py', 'DATA'),
   ('train_recognizer.py',
    'A:\\AI Attendance\\FRAS\\train_recognizer.py',
    'DATA'),
@@ -1545,67 +1546,47 @@
   ('base_library.zip',
    'A:\\AI Attendance\\FRAS\\build\\main\\base_library.zip',
    'DATA'),
-  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+  ('lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
    'DATA'),
   ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\readme.txt',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\readme.txt',
    'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+   'DATA'),
   ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
-   'DATA'),
-  ('lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
    'DATA'),
   ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
    'DATA'),
-  ('lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
+  ('lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
    'DATA'),
   ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
    'DATA'),
-  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+  ('lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
-   'DATA'),
-  ('lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
    'DATA'),
   ('certifi\\py.typed',
    'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\certifi\\py.typed',
    'DATA'),
   ('certifi\\cacert.pem',
    'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\certifi\\cacert.pem',
-   'DATA'),
-  ('pandas\\io\\formats\\templates\\latex_longtable.tpl',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\latex_longtable.tpl',
-   'DATA'),
-  ('pandas\\io\\formats\\templates\\html_table.tpl',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\html_table.tpl',
-   'DATA'),
-  ('pandas\\io\\formats\\templates\\string.tpl',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\string.tpl',
-   'DATA'),
-  ('pandas\\io\\formats\\templates\\html.tpl',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\html.tpl',
-   'DATA'),
-  ('pandas\\io\\formats\\templates\\latex.tpl',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\latex.tpl',
    'DATA'),
   ('pandas\\io\\formats\\templates\\latex_table.tpl',
    'A:\\AI '
@@ -1615,1199 +1596,620 @@
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\html_style.tpl',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Thimphu',
+  ('pandas\\io\\formats\\templates\\latex_longtable.tpl',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Thimphu',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\latex_longtable.tpl',
    'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Kampala',
+  ('pandas\\io\\formats\\templates\\html.tpl',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kampala',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\html.tpl',
    'DATA'),
-  ('pytz\\zoneinfo\\Poland',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Poland',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Efate',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Efate',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Choibalsan',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Choibalsan',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Kwajalein',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kwajalein',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Ciudad_Juarez',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ciudad_Juarez',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Maseru',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Maseru',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Montreal',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montreal',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Dakar',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Dakar',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Tallinn',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tallinn',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\Greenwich',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Greenwich',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\London',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\London',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-5',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-5',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\Catamarca',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Catamarca',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Yakutat',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Yakutat',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Hovd',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hovd',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Harare',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Harare',
-   'DATA'),
-  ('pytz\\zoneinfo\\WET',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\WET',
-   'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\Reykjavik',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Reykjavik',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Porto_Velho',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Porto_Velho',
-   'DATA'),
-  ('pytz\\zoneinfo\\US\\Indiana-Starke',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Indiana-Starke',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Jerusalem',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jerusalem',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Indiana\\Tell_City',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Tell_City',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Guam',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Guam',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Phnom_Penh',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Phnom_Penh',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Eirunepe',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Eirunepe',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Nuuk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nuuk',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Caracas',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Caracas',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Tongatapu',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tongatapu',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Famagusta',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Famagusta',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Saipan',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Saipan',
-   'DATA'),
-  ('pytz\\zoneinfo\\GMT-0',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT-0',
-   'DATA'),
-  ('pytz\\zoneinfo\\leapseconds',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\leapseconds',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Srednekolymsk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Srednekolymsk',
-   'DATA'),
-  ('pytz\\zoneinfo\\Factory',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Factory',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\Ushuaia',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Ushuaia',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-9',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-9',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Manila',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Manila',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Curacao',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Curacao',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\Cordoba',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Cordoba',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Port_Moresby',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Port_Moresby',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Manaus',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Manaus',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Winnipeg',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Winnipeg',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Cancun',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cancun',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Krasnoyarsk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Krasnoyarsk',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Kralendijk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kralendijk',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Johannesburg',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Johannesburg',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Rangoon',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Rangoon',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Andorra',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Andorra',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\San_Juan',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\San_Juan',
-   'DATA'),
-  ('pytz\\zoneinfo\\Kwajalein',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Kwajalein',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Kentucky\\Monticello',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kentucky\\Monticello',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Brazzaville',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Brazzaville',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Dublin',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Dublin',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Indiana\\Vevay',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Vevay',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Ensenada',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ensenada',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Abidjan',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Abidjan',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Astrakhan',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Astrakhan',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Lindeman',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Lindeman',
-   'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\DumontDUrville',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\DumontDUrville',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Atikokan',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Atikokan',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Anadyr',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Anadyr',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Indiana\\Indianapolis',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Indianapolis',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Cambridge_Bay',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cambridge_Bay',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Baghdad',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Baghdad',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Kashgar',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kashgar',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Panama',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Panama',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Darwin',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Darwin',
-   'DATA'),
-  ('pytz\\zoneinfo\\Egypt',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Egypt',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Sitka',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Sitka',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Inuvik',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Inuvik',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Belgrade',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Belgrade',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Ujung_Pandang',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ujung_Pandang',
-   'DATA'),
-  ('pytz\\zoneinfo\\Canada\\Newfoundland',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Newfoundland',
-   'DATA'),
-  ('pytz\\zoneinfo\\Universal',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Universal',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Araguaina',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Araguaina',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Mbabane',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Mbabane',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Podgorica',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Podgorica',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Helsinki',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Helsinki',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Oral',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Oral',
-   'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\Cape_Verde',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Cape_Verde',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Zurich',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zurich',
-   'DATA'),
-  ('pytz\\zoneinfo\\US\\Arizona',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Arizona',
-   'DATA'),
-  ('pytz\\zoneinfo\\Iceland',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Iceland',
-   'DATA'),
-  ('pytz\\zoneinfo\\Jamaica',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Jamaica',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Louisville',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Louisville',
-   'DATA'),
-  ('pytz\\zoneinfo\\Brazil\\West',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\West',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Porto-Novo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Porto-Novo',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Virgin',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Virgin',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Vaduz',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vaduz',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Lusaka',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lusaka',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Vienna',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vienna',
-   'DATA'),
-  ('pytz\\zoneinfo\\US\\Mountain',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Mountain',
-   'DATA'),
-  ('pytz\\zoneinfo\\Indian\\Mauritius',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mauritius',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Chicago',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Chicago',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Resolute',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Resolute',
-   'DATA'),
-  ('pytz\\zoneinfo\\Israel',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Israel',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Tunis',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Tunis',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Tijuana',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tijuana',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Dominica',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dominica',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Lima',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Lima',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Menominee',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Menominee',
-   'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\Syowa',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Syowa',
-   'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\Stanley',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Stanley',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Conakry',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Conakry',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Mendoza',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mendoza',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+10',
+  ('pandas\\io\\formats\\templates\\html_table.tpl',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+10',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\html_table.tpl',
    'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Currie',
+  ('pandas\\io\\formats\\templates\\string.tpl',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Currie',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\string.tpl',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Novosibirsk',
+  ('pandas\\io\\formats\\templates\\latex.tpl',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Novosibirsk',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pandas\\io\\formats\\templates\\latex.tpl',
    'DATA'),
   ('pytz\\zoneinfo\\Etc\\GMT+1',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+1',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Macao',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Macao',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Dawson',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dawson',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Perth',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Perth',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Athens',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Athens',
-   'DATA'),
-  ('pytz\\zoneinfo\\Eire',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Eire',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\St_Johns',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Johns',
-   'DATA'),
-  ('pytz\\zoneinfo\\US\\Central',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Central',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Tripoli',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Tripoli',
-   'DATA'),
-  ('pytz\\zoneinfo\\EET',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\EET',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Almaty',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Almaty',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Kolkata',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kolkata',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-12',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-12',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Uzhgorod',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Uzhgorod',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Saratov',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Saratov',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Nassau',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nassau',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Nauru',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Nauru',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Oslo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Oslo',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Midway',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Midway',
-   'DATA'),
-  ('pytz\\zoneinfo\\US\\Alaska',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Alaska',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Atyrau',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Atyrau',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Anchorage',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Anchorage',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Grenada',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Grenada',
-   'DATA'),
-  ('pytz\\zoneinfo\\US\\Aleutian',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Aleutian',
-   'DATA'),
-  ('pytz\\zoneinfo\\Iran',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Iran',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Zaporozhye',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zaporozhye',
-   'DATA'),
-  ('pytz\\zoneinfo\\Canada\\Saskatchewan',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Saskatchewan',
-   'DATA'),
-  ('pytz\\zoneinfo\\CET',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\CET',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Asmara',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Asmara',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Havana',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Havana',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Vladivostok',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Vladivostok',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\St_Barthelemy',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Barthelemy',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Muscat',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Muscat',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Auckland',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Auckland',
-   'DATA'),
-  ('pytz\\zoneinfo\\Chile\\EasterIsland',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Chile\\EasterIsland',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Khartoum',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Khartoum',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Tehran',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tehran',
-   'DATA'),
-  ('pytz\\zoneinfo\\Indian\\Maldives',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Maldives',
-   'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\Faroe',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Faroe',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Riyadh',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Riyadh',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Tokyo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tokyo',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Ponape',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Ponape',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Rainy_River',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rainy_River',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-11',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-11',
-   'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\Faeroe',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Faeroe',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Chuuk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Chuuk',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Los_Angeles',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Los_Angeles',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Monaco',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Monaco',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Pago_Pago',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pago_Pago',
-   'DATA'),
-  ('pytz\\zoneinfo\\Indian\\Chagos',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Chagos',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Nairobi',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Nairobi',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Aden',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aden',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Santo_Domingo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santo_Domingo',
-   'DATA'),
   ('pytz\\zoneinfo\\Africa\\El_Aaiun',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\El_Aaiun',
    'DATA'),
-  ('pytz\\zoneinfo\\Europe\\San_Marino',
+  ('pytz\\zoneinfo\\Etc\\GMT-8',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\San_Marino',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-8',
    'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Ljubljana',
+  ('pytz\\zoneinfo\\America\\Cambridge_Bay',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Ljubljana',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cambridge_Bay',
    'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Dar_es_Salaam',
+  ('pytz\\zoneinfo\\Europe\\Stockholm',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Dar_es_Salaam',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Campo_Grande',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Campo_Grande',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Fortaleza',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fortaleza',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Volgograd',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Volgograd',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Istanbul',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Istanbul',
-   'DATA'),
-  ('pytz\\zoneinfo\\Singapore',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Singapore',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Bissau',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bissau',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Queensland',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Queensland',
-   'DATA'),
-  ('pytz\\zoneinfo\\Cuba',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Cuba',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Busingen',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Busingen',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Cairo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Cairo',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Colombo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Colombo',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\Tucuman',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Tucuman',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Chatham',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Chatham',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Aruba',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Aruba',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\St_Vincent',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Vincent',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Martinique',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Martinique',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Barnaul',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Barnaul',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Sao_Paulo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Sao_Paulo',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Budapest',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Budapest',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Yakutsk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yakutsk',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Bishkek',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bishkek',
-   'DATA'),
-  ('pytz\\zoneinfo\\MET',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\MET',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Thule',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Thule',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Bahrain',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bahrain',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Luxembourg',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Luxembourg',
-   'DATA'),
-  ('pytz\\zoneinfo\\zone1970.tab',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\zone1970.tab',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Yancowinna',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Yancowinna',
-   'DATA'),
-  ('pytz\\zoneinfo\\Indian\\Kerguelen',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Kerguelen',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\Universal',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Universal',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Hong_Kong',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hong_Kong',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\LHI',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\LHI',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\La_Paz',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\La_Paz',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Sarajevo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Sarajevo',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Adelaide',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Adelaide',
-   'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\Canary',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Canary',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Monterrey',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Monterrey',
-   'DATA'),
-  ('pytz\\zoneinfo\\Indian\\Comoro',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Comoro',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Hermosillo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Hermosillo',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Santiago',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santiago',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Dubai',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dubai',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Rome',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Rome',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Majuro',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Majuro',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Dhaka',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dhaka',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\North_Dakota\\Center',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\Center',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Galapagos',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Galapagos',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Vientiane',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Vientiane',
-   'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\Vostok',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Vostok',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Cayman',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cayman',
-   'DATA'),
-  ('pytz\\zoneinfo\\US\\Pacific',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Pacific',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Managua',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Managua',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Omsk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Omsk',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Dawson_Creek',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dawson_Creek',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Jamaica',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Jamaica',
-   'DATA'),
-  ('pytz\\zoneinfo\\MST',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\MST',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Dacca',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dacca',
-   'DATA'),
-  ('pytz\\zoneinfo\\CST6CDT',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\CST6CDT',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Sofia',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Sofia',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Wallis',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Wallis',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\North_Dakota\\New_Salem',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\New_Salem',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\New_York',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\New_York',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Ho_Chi_Minh',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ho_Chi_Minh',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Bogota',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bogota',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Kuwait',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuwait',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Belem',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Belem',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Blanc-Sablon',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Blanc-Sablon',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Aqtau',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aqtau',
-   'DATA'),
-  ('pytz\\zoneinfo\\GMT+0',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT+0',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\Zulu',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Zulu',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Fort_Wayne',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fort_Wayne',
-   'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\South_Pole',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\South_Pole',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Anguilla',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Anguilla',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Ceuta',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ceuta',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+9',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+9',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Indianapolis',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indianapolis',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Damascus',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Damascus',
-   'DATA'),
-  ('pytz\\zoneinfo\\UCT',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\UCT',
-   'DATA'),
-  ('pytz\\zoneinfo\\Hongkong',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Hongkong',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Kiev',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kiev',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Yekaterinburg',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yekaterinburg',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-13',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-13',
-   'DATA'),
-  ('pytz\\zoneinfo\\Brazil\\Acre',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\Acre',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Stockholm',
    'DATA'),
   ('pytz\\zoneinfo\\Chile\\Continental',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Chile\\Continental',
    'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-7',
+  ('pytz\\zoneinfo\\Europe\\Vienna',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-7',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Bratislava',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Bratislava',
-   'DATA'),
-  ('pytz\\zoneinfo\\EST5EDT',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\EST5EDT',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Gaborone',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Gaborone',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Tahiti',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tahiti',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Noronha',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Noronha',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Guatemala',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guatemala',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\El_Salvador',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\El_Salvador',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Khandyga',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Khandyga',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Pitcairn',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pitcairn',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vienna',
    'DATA'),
   ('pytz\\zoneinfo\\America\\Argentina\\San_Luis',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\San_Luis',
    'DATA'),
-  ('pytz\\zoneinfo\\UTC',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\UTC',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Lome',
+  ('pytz\\zoneinfo\\Europe\\San_Marino',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lome',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\San_Marino',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Cordoba',
+  ('pytz\\zoneinfo\\Asia\\Yekaterinburg',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cordoba',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yekaterinburg',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+  ('pytz\\zoneinfo\\Asia\\Beirut',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Beirut',
    'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\Casey',
+  ('pytz\\zoneinfo\\America\\Argentina\\Ushuaia',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Casey',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Ushuaia',
    'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\Bermuda',
+  ('pytz\\zoneinfo\\Asia\\Chongqing',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Bermuda',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chongqing',
    'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Malabo',
+  ('pytz\\zoneinfo\\Australia\\Sydney',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Malabo',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Sydney',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Bahia',
+  ('pytz\\zoneinfo\\America\\Mazatlan',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bahia',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mazatlan',
    'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Ndjamena',
+  ('pytz\\zoneinfo\\Chile\\EasterIsland',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ndjamena',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Chile\\EasterIsland',
    'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Gibraltar',
+  ('pytz\\zoneinfo\\Zulu',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Zulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Atikokan',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Gibraltar',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Atikokan',
    'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\McMurdo',
+  ('pytz\\zoneinfo\\America\\Argentina\\San_Juan',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\McMurdo',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\San_Juan',
    'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Minsk',
+  ('pytz\\zoneinfo\\America\\Toronto',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Minsk',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Toronto',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Baku',
+  ('pytz\\zoneinfo\\Africa\\Maputo',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Baku',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Maputo',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Macau',
+  ('pytz\\zoneinfo\\Cuba',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Cuba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Japan',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Japan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bangkok',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Macau',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bangkok',
    'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Monrovia',
+  ('pytz\\zoneinfo\\America\\Creston',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Monrovia',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Creston',
    'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Mariehamn',
+  ('pytz\\zoneinfo\\Asia\\Katmandu',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Mariehamn',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Katmandu',
    'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Truk',
+  ('pytz\\zoneinfo\\Africa\\Blantyre',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Truk',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Blantyre',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Dili',
+  ('pytz\\zoneinfo\\Etc\\GMT+3',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dili',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+3',
    'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Kanton',
+  ('pytz\\zoneinfo\\Asia\\Manila',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kanton',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Manila',
    'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+2',
+  ('pytz\\zoneinfo\\America\\Kralendijk',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+2',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kralendijk',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Boise',
+  ('pytz\\zoneinfo\\US\\Indiana-Starke',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Boise',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Indiana-Starke',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Santarem',
+  ('pytz\\zoneinfo\\Etc\\GMT-6',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santarem',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-6',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Calcutta',
+  ('pytz\\zoneinfo\\America\\Sao_Paulo',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Calcutta',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Sao_Paulo',
    'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-0',
+  ('pytz\\zoneinfo\\Australia\\NSW',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-0',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\NSW',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Puerto_Rico',
+  ('pytz\\zoneinfo\\Europe\\Kaliningrad',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Puerto_Rico',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kaliningrad',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Lower_Princes',
+  ('pytz\\zoneinfo\\Asia\\Krasnoyarsk',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Lower_Princes',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Krasnoyarsk',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Chita',
+  ('pytz\\zoneinfo\\Africa\\Ouagadougou',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chita',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ouagadougou',
    'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\Davis',
+  ('pytz\\zoneinfo\\America\\Coral_Harbour',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Davis',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Coral_Harbour',
    'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-2',
+  ('pytz\\zoneinfo\\Asia\\Choibalsan',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-2',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Choibalsan',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Thunder_Bay',
+  ('pytz\\zoneinfo\\Asia\\Qostanay',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Thunder_Bay',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qostanay',
    'DATA'),
-  ('pytz\\zoneinfo\\W-SU',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\W-SU',
+  ('pytz\\zoneinfo\\Indian\\Kerguelen',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Kerguelen',
    'DATA'),
-  ('pytz\\zoneinfo\\GB-Eire',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GB-Eire',
+  ('pytz\\zoneinfo\\Pacific\\Yap',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Yap',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Jujuy',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Jujuy',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Nauru',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Nauru',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Porto_Acre',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Porto_Acre',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Juba',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Juba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bujumbura',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bujumbura',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Monterrey',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Monterrey',
    'DATA'),
   ('pytz\\zoneinfo\\Mexico\\General',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Mexico\\General',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Guadeloupe',
+  ('pytz\\zoneinfo\\Etc\\GMT',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guadeloupe',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Recife',
+  ('pytz\\zoneinfo\\Etc\\GMT-12',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Recife',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-12',
    'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Easter',
+  ('pytz\\zoneinfo\\Asia\\Ulan_Bator',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Easter',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ulan_Bator',
    'DATA'),
-  ('pytz\\zoneinfo\\Canada\\Yukon',
+  ('pytz\\zoneinfo\\Africa\\Lagos',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Yukon',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lagos',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Taipei',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Taipei',
+  ('pytz\\zoneinfo\\NZ-CHAT',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\NZ-CHAT',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\St_Lucia',
+  ('pytz\\zoneinfo\\Antarctica\\Macquarie',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Lucia',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Macquarie',
    'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\Mawson',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Mawson',
+  ('pytz\\zoneinfo\\MST',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\MST',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Gaza',
+  ('pytz\\zoneinfo\\Australia\\ACT',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Gaza',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\ACT',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Grand_Turk',
+  ('pytz\\zoneinfo\\Asia\\Tomsk',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Grand_Turk',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tomsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Belem',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Belem',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Faroe',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Faroe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Saigon',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Saigon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Colombo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Colombo',
+   'DATA'),
+  ('pytz\\zoneinfo\\CST6CDT',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\CST6CDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Knox',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Knox',
+   'DATA'),
+  ('pytz\\zoneinfo\\PRC',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\PRC',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Chuuk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Chuuk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Vincennes',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Vincennes',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Panama',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Panama',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Yancowinna',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Yancowinna',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Wake',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Wake',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Chatham',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Chatham',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+6',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+6',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Luxembourg',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Luxembourg',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Luanda',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Luanda',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bissau',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bissau',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montreal',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montreal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lusaka',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lusaka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Guernsey',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Guernsey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-1',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-1',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+0',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+0',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cordoba',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cordoba',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Resolute',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Resolute',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Asmara',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Asmara',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Faeroe',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Faeroe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Niamey',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Niamey',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Vevay',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Vevay',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Belfast',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Belfast',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Phoenix',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Phoenix',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Vientiane',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Vientiane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Syowa',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Syowa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Helsinki',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Helsinki',
+   'DATA'),
+  ('pytz\\zoneinfo\\Hongkong',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Hongkong',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fortaleza',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fortaleza',
+   'DATA'),
+  ('pytz\\zoneinfo\\Greenwich',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Greenwich',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Newfoundland',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Newfoundland',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Pangnirtung',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Pangnirtung',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Efate',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Efate',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\ComodRivadavia',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\ComodRivadavia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Enderbury',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Enderbury',
+   'DATA'),
+  ('pytz\\zoneinfo\\MST7MDT',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\MST7MDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Madrid',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Madrid',
+   'DATA'),
+  ('pytz\\zoneinfo\\Eire',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Eire',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Novokuznetsk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Novokuznetsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Adelaide',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Adelaide',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aden',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aden',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Manaus',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Manaus',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fort_Nelson',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fort_Nelson',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+4',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+4',
+   'DATA'),
+  ('pytz\\zoneinfo\\EST',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\EST',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Blanc-Sablon',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Blanc-Sablon',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Buenos_Aires',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Buenos_Aires',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guyana',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guyana',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Johns',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Johns',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Mexico_City',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mexico_City',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Thomas',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Thomas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bogota',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bogota',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hebron',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hebron',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tiraspol',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tiraspol',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Marigot',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Marigot',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pohnpei',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pohnpei',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Lindeman',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Lindeman',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dushanbe',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dushanbe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Bangui',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bangui',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Accra',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Accra',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Port_of_Spain',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Port_of_Spain',
+   'DATA'),
+  ('pytz\\zoneinfo\\iso3166.tab',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\iso3166.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Budapest',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Budapest',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kinshasa',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kinshasa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Pacific',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Pacific',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Danmarkshavn',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Danmarkshavn',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Los_Angeles',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Los_Angeles',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Halifax',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Halifax',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\Beulah',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\Beulah',
+   'DATA'),
+  ('pytz\\zoneinfo\\Iran',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Iran',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Gibraltar',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Gibraltar',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guatemala',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guatemala',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Anchorage',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Anchorage',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Central',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Central',
    'DATA'),
   ('pytz\\zoneinfo\\Europe\\Riga',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Riga',
    'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Kiritimati',
+  ('pytz\\zoneinfo\\Asia\\Anadyr',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kiritimati',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Anadyr',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\North',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\North',
+   'DATA'),
+  ('pytz\\zoneinfo\\Turkey',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Turkey',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT-0',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT-0',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Merida',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Merida',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Kentucky\\Monticello',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kentucky\\Monticello',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Michigan',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Michigan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guayaquil',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guayaquil',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Macao',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Macao',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Barthelemy',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Barthelemy',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Ensenada',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ensenada',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lome',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Banjul',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Banjul',
    'DATA'),
   ('pytz\\zoneinfo\\Mexico\\BajaNorte',
    'A:\\AI '
@@ -2817,1213 +2219,1812 @@
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\DeNoronha',
    'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Juba',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Juba',
-   'DATA'),
-  ('pytz\\zoneinfo\\Canada\\Atlantic',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Atlantic',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-1',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-1',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Tbilisi',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tbilisi',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Niamey',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Niamey',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Magadan',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Magadan',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+7',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+7',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Nicosia',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Nicosia',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Ashgabat',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ashgabat',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Guernsey',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Guernsey',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Nipigon',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nipigon',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Belize',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Belize',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Yap',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Yap',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Amman',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Amman',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Indiana\\Marengo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Marengo',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Ulaanbaatar',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ulaanbaatar',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Berlin',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Berlin',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Saigon',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Saigon',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Bahia_Banderas',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bahia_Banderas',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Regina',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Regina',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Catamarca',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Catamarca',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\Mendoza',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Mendoza',
-   'DATA'),
-  ('pytz\\zoneinfo\\GMT0',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT0',
-   'DATA'),
-  ('pytz\\zoneinfo\\Greenwich',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Greenwich',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Libreville',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Libreville',
-   'DATA'),
   ('pytz\\zoneinfo\\Pacific\\Noumea',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Noumea',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Amsterdam',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Amsterdam',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Chihuahua',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Chihuahua',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Asmera',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Asmera',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Maputo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Maputo',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Kamchatka',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kamchatka',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Kosrae',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kosrae',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\Salta',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Salta',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Indiana\\Vincennes',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Vincennes',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Knox_IN',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Knox_IN',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\UCT',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\UCT',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+4',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+4',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Chisinau',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Chisinau',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Costa_Rica',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Costa_Rica',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Iqaluit',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Iqaluit',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-3',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-3',
-   'DATA'),
-  ('pytz\\zoneinfo\\zonenow.tab',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\zonenow.tab',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Rankin_Inlet',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rankin_Inlet',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Port_of_Spain',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Port_of_Spain',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Addis_Ababa',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Addis_Ababa',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Karachi',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Karachi',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Tiraspol',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tiraspol',
-   'DATA'),
-  ('pytz\\zoneinfo\\Brazil\\East',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\East',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Montserrat',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montserrat',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Skopje',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Skopje',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Accra',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Accra',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Bucharest',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Bucharest',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Sydney',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Sydney',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Singapore',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Singapore',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Algiers',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Algiers',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Ashkhabad',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ashkhabad',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Jakarta',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jakarta',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Lubumbashi',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lubumbashi',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Kuala_Lumpur',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuala_Lumpur',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Djibouti',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Djibouti',
-   'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\Troll',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Troll',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Maceio',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Maceio',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Santa_Isabel',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santa_Isabel',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Guyana',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guyana',
-   'DATA'),
-  ('pytz\\zoneinfo\\Indian\\Antananarivo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Antananarivo',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Copenhagen',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Copenhagen',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Barbados',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Barbados',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Lisbon',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Lisbon',
-   'DATA'),
-  ('pytz\\zoneinfo\\US\\Michigan',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Michigan',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Phoenix',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Phoenix',
-   'DATA'),
-  ('pytz\\zoneinfo\\NZ-CHAT',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\NZ-CHAT',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\South',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\South',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Ouagadougou',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ouagadougou',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Simferopol',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Simferopol',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Malta',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Malta',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Istanbul',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Istanbul',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Goose_Bay',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Goose_Bay',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\St_Kitts',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Kitts',
-   'DATA'),
-  ('pytz\\zoneinfo\\Canada\\Pacific',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Pacific',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Porto_Acre',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Porto_Acre',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Jujuy',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Jujuy',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\West',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\West',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Moncton',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Moncton',
-   'DATA'),
-  ('pytz\\zoneinfo\\iso3166.tab',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\iso3166.tab',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Creston',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Creston',
-   'DATA'),
-  ('pytz\\zoneinfo\\US\\East-Indiana',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\East-Indiana',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Qyzylorda',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qyzylorda',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Prague',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Prague',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Luanda',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Luanda',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Toronto',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Toronto',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Victoria',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Victoria',
-   'DATA'),
-  ('pytz\\zoneinfo\\ROK',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\ROK',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Urumqi',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Urumqi',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Hebron',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hebron',
-   'DATA'),
-  ('pytz\\zoneinfo\\EST',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\EST',
-   'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\Palmer',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Palmer',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Hobart',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Hobart',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Qostanay',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qostanay',
-   'DATA'),
-  ('pytz\\zoneinfo\\zone.tab',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\zone.tab',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Pangnirtung',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Pangnirtung',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Fort_Nelson',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fort_Nelson',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Norfolk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Norfolk',
-   'DATA'),
-  ('pytz\\zoneinfo\\MST7MDT',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\MST7MDT',
-   'DATA'),
-  ('pytz\\zoneinfo\\tzdata.zi',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\tzdata.zi',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Juneau',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Juneau',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Pohnpei',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pohnpei',
-   'DATA'),
-  ('pytz\\zoneinfo\\Indian\\Mahe',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mahe',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\North_Dakota\\Beulah',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\Beulah',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Nicosia',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Nicosia',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\UTC',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\UTC',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Tarawa',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tarawa',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Ulan_Bator',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ulan_Bator',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Edmonton',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Edmonton',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Beirut',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Beirut',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Cuiaba',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cuiaba',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Antigua',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Antigua',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Kaliningrad',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kaliningrad',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\North',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\North',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Douala',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Douala',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Makassar',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Makassar',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Godthab',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Godthab',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\Buenos_Aires',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Buenos_Aires',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\La_Rioja',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\La_Rioja',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Kentucky\\Louisville',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kentucky\\Louisville',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Enderbury',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Enderbury',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Stockholm',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Stockholm',
-   'DATA'),
-  ('pytz\\zoneinfo\\Arctic\\Longyearbyen',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Arctic\\Longyearbyen',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Broken_Hill',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Broken_Hill',
-   'DATA'),
-  ('pytz\\zoneinfo\\Indian\\Cocos',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Cocos',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Port-au-Prince',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Port-au-Prince',
-   'DATA'),
-  ('pytz\\zoneinfo\\Navajo',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Navajo',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Apia',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Apia',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Scoresbysund',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Scoresbysund',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Vatican',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vatican',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Rarotonga',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Rarotonga',
-   'DATA'),
-  ('pytz\\zoneinfo\\PST8PDT',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\PST8PDT',
-   'DATA'),
-  ('pytz\\zoneinfo\\Mexico\\BajaSur',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Mexico\\BajaSur',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Seoul',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Seoul',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Kigali',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kigali',
-   'DATA'),
-  ('pytz\\zoneinfo\\US\\Samoa',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Samoa',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Indiana\\Winamac',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Winamac',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Kathmandu',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kathmandu',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Timbuktu',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Timbuktu',
-   'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\St_Helena',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\St_Helena',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Niue',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Niue',
-   'DATA'),
-  ('pytz\\zoneinfo\\Indian\\Christmas',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Christmas',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Buenos_Aires',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Buenos_Aires',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Tegucigalpa',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tegucigalpa',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Boa_Vista',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Boa_Vista',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Brisbane',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Brisbane',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Swift_Current',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Swift_Current',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\St_Thomas',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Thomas',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Guadalcanal',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Guadalcanal',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Tortola',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tortola',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Glace_Bay',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Glace_Bay',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Halifax',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Halifax',
-   'DATA'),
-  ('pytz\\zoneinfo\\Indian\\Mayotte',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mayotte',
-   'DATA'),
-  ('pytz\\zoneinfo\\Japan',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Japan',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Tirane',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tirane',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Danmarkshavn',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Danmarkshavn',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Kinshasa',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kinshasa',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+12',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+12',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Kabul',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kabul',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Katmandu',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Katmandu',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Bujumbura',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bujumbura',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Marquesas',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Marquesas',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Brussels',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Brussels',
-   'DATA'),
-  ('pytz\\zoneinfo\\PRC',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\PRC',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Shanghai',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Shanghai',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Warsaw',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Warsaw',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-14',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-14',
-   'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\Macquarie',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Macquarie',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Novokuznetsk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Novokuznetsk',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Pontianak',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Pontianak',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Miquelon',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Miquelon',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Bangui',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bangui',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Mexico_City',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mexico_City',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Harbin',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Harbin',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Mogadishu',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Mogadishu',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Bougainville',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Bougainville',
-   'DATA'),
-  ('pytz\\zoneinfo\\Antarctica\\Rothera',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Rothera',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Canberra',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Canberra',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Rosario',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rosario',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-10',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-10',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Yellowknife',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Yellowknife',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Kuching',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuching',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-6',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-6',
-   'DATA'),
-  ('pytz\\zoneinfo\\GB',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GB',
-   'DATA'),
-  ('pytz\\zoneinfo\\Canada\\Mountain',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Mountain',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Windhoek',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Windhoek',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Madrid',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Madrid',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\ComodRivadavia',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\ComodRivadavia',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Moscow',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Moscow',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Cayenne',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cayenne',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Marigot',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Marigot',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Samara',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Samara',
-   'DATA'),
-  ('pytz\\zoneinfo\\Canada\\Eastern',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Eastern',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Vancouver',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Vancouver',
-   'DATA'),
-  ('pytz\\zoneinfo\\HST',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\HST',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-4',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-4',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Gambier',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Gambier',
-   'DATA'),
-  ('pytz\\zoneinfo\\ROC',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\ROC',
-   'DATA'),
-  ('pytz\\zoneinfo\\GMT',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Irkutsk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Irkutsk',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Aqtobe',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aqtobe',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Wake',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Wake',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Argentina\\Jujuy',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Jujuy',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Bamako',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bamako',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\ACT',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\ACT',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Jayapura',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jayapura',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Isle_of_Man',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Isle_of_Man',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Casablanca',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Casablanca',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Vilnius',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vilnius',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Ust-Nera',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ust-Nera',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Samarkand',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Samarkand',
-   'DATA'),
-  ('pytz\\zoneinfo\\Turkey',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Turkey',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Montevideo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montevideo',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Ulyanovsk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Ulyanovsk',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Thimbu',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Thimbu',
-   'DATA'),
-  ('pytz\\zoneinfo\\Portugal',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Portugal',
-   'DATA'),
-  ('pytz\\zoneinfo\\Libya',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Libya',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Jersey',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Jersey',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Zagreb',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zagreb',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Johnston',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Johnston',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Ojinaga',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ojinaga',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Paramaribo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Paramaribo',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Adak',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Adak',
-   'DATA'),
-  ('pytz\\zoneinfo\\Zulu',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Zulu',
    'DATA'),
   ('pytz\\zoneinfo\\Europe\\Kyiv',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kyiv',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Whitehorse',
+  ('pytz\\zoneinfo\\Indian\\Mauritius',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Whitehorse',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mauritius',
    'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Paris',
+  ('pytz\\zoneinfo\\America\\Nipigon',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Paris',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nipigon',
    'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+5',
+  ('pytz\\zoneinfo\\America\\Recife',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+5',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Recife',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Mazatlan',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mazatlan',
+  ('pytz\\zoneinfo\\GB',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GB',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Indiana\\Knox',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Knox',
+  ('pytz\\zoneinfo\\Jamaica',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Jamaica',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Asuncion',
+  ('pytz\\zoneinfo\\Europe\\Brussels',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Asuncion',
-   'DATA'),
-  ('pytz\\zoneinfo\\US\\Hawaii',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Hawaii',
-   'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\Madeira',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Madeira',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+8',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+8',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Fiji',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Fiji',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Punta_Arenas',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Punta_Arenas',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Matamoros',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Matamoros',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Honolulu',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Honolulu',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Denver',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Denver',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT-8',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-8',
-   'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\Jan_Mayen',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Jan_Mayen',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+0',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+0',
-   'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Fakaofo',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Fakaofo',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Belfast',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Belfast',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Eucla',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Eucla',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Yangon',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yangon',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Atka',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Atka',
-   'DATA'),
-  ('pytz\\zoneinfo\\Europe\\Kirov',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kirov',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Bangkok',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bangkok',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Lord_Howe',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Lord_Howe',
-   'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Yerevan',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yerevan',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Blantyre',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Blantyre',
-   'DATA'),
-  ('pytz\\zoneinfo\\Australia\\Tasmania',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Tasmania',
-   'DATA'),
-  ('pytz\\zoneinfo\\America\\Indiana\\Petersburg',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Petersburg',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Lagos',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lagos',
-   'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Nouakchott',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Nouakchott',
-   'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+11',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+11',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Brussels',
    'DATA'),
   ('pytz\\zoneinfo\\Asia\\Tel_Aviv',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tel_Aviv',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Coral_Harbour',
+  ('pytz\\zoneinfo\\Africa\\Malabo',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Coral_Harbour',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Malabo',
    'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Sao_Tome',
+  ('pytz\\zoneinfo\\America\\Boa_Vista',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Sao_Tome',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Boa_Vista',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Chongqing',
+  ('pytz\\zoneinfo\\Africa\\Bamako',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chongqing',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Bamako',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Detroit',
+  ('pytz\\zoneinfo\\Atlantic\\Bermuda',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Detroit',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Bermuda',
    'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\Azores',
+  ('pytz\\zoneinfo\\America\\Maceio',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Azores',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Maceio',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Chungking',
+  ('pytz\\zoneinfo\\Asia\\Ho_Chi_Minh',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chungking',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ho_Chi_Minh',
    'DATA'),
-  ('pytz\\zoneinfo\\Australia\\NSW',
+  ('pytz\\zoneinfo\\Asia\\Chita',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\NSW',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chita',
    'DATA'),
-  ('pytz\\zoneinfo\\Africa\\Banjul',
+  ('pytz\\zoneinfo\\Europe\\Monaco',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Banjul',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Monaco',
    'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT0',
+  ('pytz\\zoneinfo\\Etc\\GMT+10',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT0',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+10',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Dushanbe',
+  ('pytz\\zoneinfo\\America\\Lower_Princes',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dushanbe',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Lower_Princes',
    'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Palau',
+  ('pytz\\zoneinfo\\America\\Argentina\\Mendoza',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Palau',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Mendoza',
    'DATA'),
-  ('pytz\\zoneinfo\\NZ',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\NZ',
-   'DATA'),
-  ('pytz\\zoneinfo\\Canada\\Central',
+  ('pytz\\zoneinfo\\Atlantic\\Cape_Verde',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Central',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Cape_Verde',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Nome',
+  ('pytz\\zoneinfo\\Etc\\GMT-10',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nome',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-10',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Boise',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Boise',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Maldives',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Maldives',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Vancouver',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Vancouver',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Irkutsk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Irkutsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santarem',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santarem',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pago_Pago',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pago_Pago',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bahia_Banderas',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bahia_Banderas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tegucigalpa',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tegucigalpa',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Catamarca',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Catamarca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Warsaw',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Warsaw',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Harbin',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Harbin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Zulu',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Zulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Simferopol',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Simferopol',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Algiers',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Algiers',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vilnius',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vilnius',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Comoro',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Comoro',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Easter',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Easter',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Curacao',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Curacao',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cuiaba',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cuiaba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Christmas',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Christmas',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT0',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tbilisi',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tbilisi',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Sitka',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Sitka',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Miquelon',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Miquelon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Rothera',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Rothera',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Windhoek',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Windhoek',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Hawaii',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Hawaii',
+   'DATA'),
+  ('pytz\\zoneinfo\\ROC',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\ROC',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Istanbul',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Istanbul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Cairo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Cairo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Wallis',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Wallis',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Havana',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Havana',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Menominee',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Menominee',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Majuro',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Majuro',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Porto-Novo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Porto-Novo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Oral',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Oral',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Busingen',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Busingen',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Punta_Arenas',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Punta_Arenas',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Shanghai',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Shanghai',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Anguilla',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Anguilla',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dili',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dili',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Seoul',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Seoul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Phnom_Penh',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Phnom_Penh',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Kirov',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kirov',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Yakutat',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Yakutat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Karachi',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Karachi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tirane',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tirane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Djibouti',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Djibouti',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bishkek',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bishkek',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tijuana',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tijuana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Gaza',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Gaza',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Port_Moresby',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Port_Moresby',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Riyadh',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Riyadh',
    'DATA'),
   ('pytz\\zoneinfo\\Asia\\Brunei',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Brunei',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Rio_Branco',
+  ('pytz\\zoneinfo\\Africa\\Tripoli',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rio_Branco',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Tripoli',
    'DATA'),
-  ('pytz\\zoneinfo\\Pacific\\Funafuti',
+  ('pytz\\zoneinfo\\Pacific\\Fiji',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Funafuti',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Fiji',
    'DATA'),
-  ('pytz\\zoneinfo\\Indian\\Reunion',
+  ('pytz\\zoneinfo\\America\\Hermosillo',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Reunion',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Hermosillo',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\East-Indiana',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\East-Indiana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zurich',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zurich',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Alaska',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Alaska',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kosrae',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kosrae',
+   'DATA'),
+  ('pytz\\zoneinfo\\zone1970.tab',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\zone1970.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Libreville',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Libreville',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Regina',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Regina',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Douala',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Douala',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Asmera',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Asmera',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuwait',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuwait',
    'DATA'),
   ('pytz\\zoneinfo\\Africa\\Freetown',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Freetown',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Qatar',
+  ('pytz\\zoneinfo\\US\\Pacific',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qatar',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Pacific',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Merida',
+  ('pytz\\zoneinfo\\Antarctica\\Palmer',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Merida',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Palmer',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Guayaquil',
+  ('pytz\\zoneinfo\\Europe\\Kiev',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guayaquil',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Kiev',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Sakhalin',
+  ('pytz\\zoneinfo\\America\\Indiana\\Marengo',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Sakhalin',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Marengo',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Tomsk',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tomsk',
+  ('pytz\\zoneinfo\\W-SU',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\W-SU',
    'DATA'),
-  ('pytz\\zoneinfo\\US\\Eastern',
+  ('pytz\\zoneinfo\\Pacific\\Guadalcanal',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Eastern',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Guadalcanal',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Metlakatla',
+  ('pytz\\zoneinfo\\America\\Buenos_Aires',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Metlakatla',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Buenos_Aires',
    'DATA'),
-  ('pytz\\zoneinfo\\Asia\\Pyongyang',
+  ('pytz\\zoneinfo\\Asia\\Jakarta',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Pyongyang',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jakarta',
    'DATA'),
-  ('pytz\\zoneinfo\\America\\Shiprock',
+  ('pytz\\zoneinfo\\Pacific\\Guam',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Shiprock',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Guam',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT+0',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT+0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-14',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-14',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Salta',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Salta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Ljubljana',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Ljubljana',
+   'DATA'),
+  ('pytz\\zoneinfo\\Mexico\\BajaSur',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Mexico\\BajaSur',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Urumqi',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Urumqi',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Tucuman',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Tucuman',
+   'DATA'),
+  ('pytz\\zoneinfo\\Navajo',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Navajo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\DumontDUrville',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\DumontDUrville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\East',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\East',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Ciudad_Juarez',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ciudad_Juarez',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-0',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-0',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Knox_IN',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Knox_IN',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Canary',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Canary',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tarawa',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tarawa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\McMurdo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\McMurdo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Barbados',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Barbados',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Puerto_Rico',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Puerto_Rico',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Gaborone',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Gaborone',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Aruba',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Aruba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ulaanbaatar',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ulaanbaatar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Truk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Truk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT0',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT0',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Maseru',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Maseru',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Almaty',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Almaty',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Juneau',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Juneau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Paris',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Paris',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Saratov',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Saratov',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Currie',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Currie',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Yellowknife',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Yellowknife',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Greenwich',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Greenwich',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Reykjavik',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Reykjavik',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Oslo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Oslo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Isle_of_Man',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Isle_of_Man',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nome',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Qyzylorda',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qyzylorda',
+   'DATA'),
+  ('pytz\\zoneinfo\\Kwajalein',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Kwajalein',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\Acre',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\Acre',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Madeira',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Madeira',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Jan_Mayen',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Jan_Mayen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-11',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-11',
+   'DATA'),
+  ('pytz\\zoneinfo\\Poland',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Poland',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cayman',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cayman',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Atlantic',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Atlantic',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Nicosia',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Nicosia',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Scoresbysund',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Scoresbysund',
    'DATA'),
   ('pytz\\zoneinfo\\Asia\\Tashkent',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tashkent',
    'DATA'),
-  ('pytz\\zoneinfo\\Atlantic\\South_Georgia',
+  ('pytz\\zoneinfo\\Asia\\Makassar',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\South_Georgia',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Makassar',
    'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+6',
+  ('pytz\\zoneinfo\\Africa\\Tunis',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+6',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Tunis',
    'DATA'),
-  ('pytz\\zoneinfo\\Etc\\GMT+3',
+  ('pytz\\zoneinfo\\America\\Rainy_River',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+3',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rainy_River',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Thunder_Bay',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Thunder_Bay',
    'DATA'),
   ('pytz\\zoneinfo\\Australia\\Melbourne',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Melbourne',
    'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Eucla',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Eucla',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Ceuta',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ceuta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Copenhagen',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Copenhagen',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Managua',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Managua',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Rangoon',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Rangoon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+7',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+7',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montserrat',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montserrat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Saskatchewan',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Saskatchewan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Thimphu',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Thimphu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Chagos',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Chagos',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Rio_Gallegos',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Fort_Wayne',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Fort_Wayne',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kampala',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kampala',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Mountain',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Mountain',
+   'DATA'),
+  ('pytz\\zoneinfo\\EST5EDT',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\EST5EDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Lima',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Lima',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Mbabane',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Mbabane',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Belize',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Belize',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Antananarivo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Antananarivo',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dawson_Creek',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dawson_Creek',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Prague',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Prague',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Nouakchott',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Nouakchott',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\LHI',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\LHI',
+   'DATA'),
+  ('pytz\\zoneinfo\\tzdata.zi',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\tzdata.zi',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Campo_Grande',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Campo_Grande',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santiago',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santiago',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Timbuktu',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Timbuktu',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Porto_Velho',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Porto_Velho',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Samarkand',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Samarkand',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Mawson',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Mawson',
+   'DATA'),
+  ('pytz\\zoneinfo\\NZ',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\NZ',
+   'DATA'),
+  ('pytz\\zoneinfo\\Universal',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Universal',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Moncton',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Moncton',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Abidjan',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Abidjan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Nairobi',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Nairobi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Ulyanovsk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Ulyanovsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Dar_es_Salaam',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Dar_es_Salaam',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kiritimati',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kiritimati',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Sakhalin',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Sakhalin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Mogadishu',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Mogadishu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Magadan',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Magadan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Bahrain',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Bahrain',
+   'DATA'),
+  ('pytz\\zoneinfo\\PST8PDT',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\PST8PDT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+12',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+12',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Swift_Current',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Swift_Current',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Noronha',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Noronha',
+   'DATA'),
+  ('pytz\\zoneinfo\\Arctic\\Longyearbyen',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Arctic\\Longyearbyen',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hong_Kong',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hong_Kong',
+   'DATA'),
+  ('pytz\\zoneinfo\\ROK',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\ROK',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\Center',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\Center',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Arizona',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Arizona',
+   'DATA'),
+  ('pytz\\zoneinfo\\MET',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\MET',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Lucia',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Lucia',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santo_Domingo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santo_Domingo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Malta',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Malta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zagreb',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zagreb',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yerevan',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yerevan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-3',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-3',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Cordoba',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Cordoba',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\South_Pole',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\South_Pole',
+   'DATA'),
   ('pytz\\zoneinfo\\Pacific\\Samoa',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Samoa',
    'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yangon',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yangon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Pitcairn',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Pitcairn',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Mendoza',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Mendoza',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tahiti',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tahiti',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Andorra',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Andorra',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Santa_Isabel',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Santa_Isabel',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Singapore',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Singapore',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Berlin',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Berlin',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cayenne',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cayenne',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kamchatka',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kamchatka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Casey',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Casey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Dakar',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Dakar',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Port-au-Prince',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Port-au-Prince',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuala_Lumpur',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuala_Lumpur',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kuching',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kuching',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Pontianak',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Pontianak',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Perth',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Perth',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Brisbane',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Brisbane',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dubai',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dubai',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dhaka',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dhaka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Lisbon',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Lisbon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\West',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\West',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Niue',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Niue',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tokyo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tokyo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Tallinn',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Tallinn',
+   'DATA'),
+  ('pytz\\zoneinfo\\HST',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\HST',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Macau',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Macau',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Louisville',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Louisville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Tehran',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Tehran',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Eastern',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Eastern',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-13',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-13',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Broken_Hill',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Broken_Hill',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Johannesburg',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Johannesburg',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Calcutta',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Calcutta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Egypt',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Egypt',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Reunion',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Reunion',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nassau',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nassau',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Nuuk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Nuuk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Tongatapu',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Tongatapu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Hobart',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Hobart',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Podgorica',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Podgorica',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\New_York',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\New_York',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Chungking',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Chungking',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ujung_Pandang',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ujung_Pandang',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Glace_Bay',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Glace_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rosario',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rosario',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Samoa',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Samoa',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\North_Dakota\\New_Salem',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\North_Dakota\\New_Salem',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Istanbul',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Istanbul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Hovd',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Hovd',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-7',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-7',
+   'DATA'),
+  ('pytz\\zoneinfo\\Canada\\Yukon',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Canada\\Yukon',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Azores',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Azores',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Midway',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Midway',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Aleutian',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Aleutian',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aqtau',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aqtau',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Galapagos',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Galapagos',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Moscow',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Moscow',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-2',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-2',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Petersburg',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Petersburg',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dawson',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dawson',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Lord_Howe',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Lord_Howe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kolkata',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kolkata',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Central',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Central',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\UCT',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\UCT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Ponape',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Ponape',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Monrovia',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Monrovia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Bratislava',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Bratislava',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Eastern',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Eastern',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Asuncion',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Asuncion',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Yakutsk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Yakutsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Sao_Tome',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Sao_Tome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Darwin',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Darwin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Gambier',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Gambier',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Amsterdam',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Amsterdam',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Volgograd',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Volgograd',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Srednekolymsk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Srednekolymsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\GB-Eire',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GB-Eire',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\La_Rioja',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\La_Rioja',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Casablanca',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Casablanca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Iceland',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Iceland',
+   'DATA'),
+  ('pytz\\zoneinfo\\UCT',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\UCT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Norfolk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Norfolk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Israel',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Israel',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Detroit',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Detroit',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Sofia',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Sofia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Skopje',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Skopje',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Uzhgorod',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Uzhgorod',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Kentucky\\Louisville',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Kentucky\\Louisville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Samara',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Samara',
+   'DATA'),
+  ('pytz\\zoneinfo\\Brazil\\West',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Brazil\\West',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kwajalein',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kwajalein',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\La_Paz',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\La_Paz',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Johnston',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Johnston',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Mahe',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mahe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Libya',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Libya',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Mayotte',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Mayotte',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-4',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-4',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Adak',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Adak',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ust-Nera',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ust-Nera',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Indianapolis',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Indianapolis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Vostok',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Vostok',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+9',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+9',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\London',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\London',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Honolulu',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Honolulu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Sarajevo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Sarajevo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Barnaul',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Barnaul',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Cancun',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Cancun',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Khartoum',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Khartoum',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Fakaofo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Fakaofo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Davis',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Davis',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Vincent',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Vincent',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Antigua',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Antigua',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Caracas',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Caracas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indianapolis',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indianapolis',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Apia',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Apia',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Ojinaga',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Ojinaga',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Guadeloupe',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Guadeloupe',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Matamoros',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Matamoros',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Jerusalem',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jerusalem',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Jersey',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Jersey',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Dacca',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Dacca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Damascus',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Damascus',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\El_Salvador',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\El_Salvador',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\St_Kitts',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\St_Kitts',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Eirunepe',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Eirunepe',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Jujuy',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Jujuy',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Goose_Bay',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Goose_Bay',
+   'DATA'),
+  ('pytz\\zoneinfo\\GMT',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\GMT',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ashkhabad',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ashkhabad',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Funafuti',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Funafuti',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Vladivostok',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Vladivostok',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Denver',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Denver',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Whitehorse',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Whitehorse',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+11',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+11',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Addis_Ababa',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Addis_Ababa',
+   'DATA'),
+  ('pytz\\zoneinfo\\Indian\\Cocos',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Indian\\Cocos',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Tasmania',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Tasmania',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Paramaribo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Paramaribo',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Saipan',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Saipan',
+   'DATA'),
+  ('pytz\\zoneinfo\\Singapore',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Singapore',
+   'DATA'),
+  ('pytz\\zoneinfo\\US\\Mountain',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\US\\Mountain',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Godthab',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Godthab',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Thule',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Thule',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Virgin',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Virgin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Nicosia',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Nicosia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Khandyga',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Khandyga',
+   'DATA'),
+  ('pytz\\zoneinfo\\leapseconds',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\leapseconds',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Bucharest',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Bucharest',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\St_Helena',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\St_Helena',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kashgar',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kashgar',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Marquesas',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Marquesas',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Winnipeg',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Winnipeg',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Dominica',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Dominica',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Novosibirsk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Novosibirsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Kigali',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Kigali',
+   'DATA'),
+  ('pytz\\zoneinfo\\EET',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\EET',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Jayapura',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Jayapura',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\UTC',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\UTC',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Inuvik',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Inuvik',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Grenada',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Grenada',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Mariehamn',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Mariehamn',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Astrakhan',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Astrakhan',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Jamaica',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Jamaica',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Tortola',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Tortola',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Conakry',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Conakry',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Aqtobe',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Aqtobe',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\Universal',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\Universal',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rankin_Inlet',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rankin_Inlet',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Martinique',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Martinique',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Brazzaville',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Brazzaville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Harare',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Harare',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Atka',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Atka',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Auckland',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Auckland',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Iqaluit',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Iqaluit',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Baku',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Baku',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kathmandu',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kathmandu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Kanton',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Kanton',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vaduz',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vaduz',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Belgrade',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Belgrade',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Famagusta',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Famagusta',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-9',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-9',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Chicago',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Chicago',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Canberra',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Canberra',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Minsk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Minsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Palau',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Palau',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Chihuahua',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Chihuahua',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Edmonton',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Edmonton',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+8',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+8',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Rome',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Rome',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Omsk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Omsk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Metlakatla',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Metlakatla',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Rarotonga',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Rarotonga',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Araguaina',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Araguaina',
+   'DATA'),
+  ('pytz\\zoneinfo\\Pacific\\Bougainville',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Pacific\\Bougainville',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Pyongyang',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Pyongyang',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Ashgabat',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Ashgabat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+2',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+2',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Vatican',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Vatican',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Winamac',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Winamac',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Taipei',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Taipei',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT-5',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT-5',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Argentina\\Catamarca',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Argentina\\Catamarca',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Chisinau',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Chisinau',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Montevideo',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Montevideo',
+   'DATA'),
+  ('pytz\\zoneinfo\\zone.tab',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\zone.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\Factory',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Factory',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Costa_Rica',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Costa_Rica',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Shiprock',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Shiprock',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Thimbu',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Thimbu',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\South',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\South',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Lubumbashi',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Lubumbashi',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Kabul',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Kabul',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\Stanley',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\Stanley',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Grand_Turk',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Grand_Turk',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Indiana\\Tell_City',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Indiana\\Tell_City',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Victoria',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Victoria',
+   'DATA'),
+  ('pytz\\zoneinfo\\Etc\\GMT+5',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Etc\\GMT+5',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Baghdad',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Baghdad',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Muscat',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Muscat',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Amman',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Amman',
+   'DATA'),
+  ('pytz\\zoneinfo\\zonenow.tab',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\zonenow.tab',
+   'DATA'),
+  ('pytz\\zoneinfo\\Australia\\Queensland',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Australia\\Queensland',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Bahia',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Bahia',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Dublin',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Dublin',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Qatar',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Qatar',
+   'DATA'),
+  ('pytz\\zoneinfo\\UTC',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\UTC',
+   'DATA'),
+  ('pytz\\zoneinfo\\WET',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\WET',
+   'DATA'),
+  ('pytz\\zoneinfo\\Antarctica\\Troll',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Antarctica\\Troll',
+   'DATA'),
+  ('pytz\\zoneinfo\\Portugal',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Portugal',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Athens',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Athens',
+   'DATA'),
+  ('pytz\\zoneinfo\\Europe\\Zaporozhye',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Europe\\Zaporozhye',
+   'DATA'),
+  ('pytz\\zoneinfo\\Asia\\Atyrau',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Asia\\Atyrau',
+   'DATA'),
+  ('pytz\\zoneinfo\\America\\Rio_Branco',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\America\\Rio_Branco',
+   'DATA'),
+  ('pytz\\zoneinfo\\Africa\\Ndjamena',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Africa\\Ndjamena',
+   'DATA'),
+  ('pytz\\zoneinfo\\Atlantic\\South_Georgia',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\Atlantic\\South_Georgia',
+   'DATA'),
+  ('pytz\\zoneinfo\\CET',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\pytz\\zoneinfo\\CET',
+   'DATA'),
   ('cv2\\load_config_py3.py',
    'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\cv2\\load_config_py3.py',
-   'DATA'),
-  ('cv2\\config-3.py',
-   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\cv2\\config-3.py',
    'DATA'),
   ('cv2\\config.py',
    'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\cv2\\config.py',
    'DATA'),
-  ('cssutils-2.11.1.dist-info\\top_level.txt',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\cssutils-2.11.1.dist-info\\top_level.txt',
+  ('cv2\\config-3.py',
+   'A:\\AI Attendance\\FRAS\\venv\\Lib\\site-packages\\cv2\\config-3.py',
    'DATA'),
   ('cssutils-2.11.1.dist-info\\entry_points.txt',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\cssutils-2.11.1.dist-info\\entry_points.txt',
    'DATA'),
-  ('cssutils-2.11.1.dist-info\\RECORD',
+  ('cssutils-2.11.1.dist-info\\WHEEL',
    'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\cssutils-2.11.1.dist-info\\RECORD',
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\cssutils-2.11.1.dist-info\\WHEEL',
    'DATA'),
   ('cssutils-2.11.1.dist-info\\LICENSE',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\cssutils-2.11.1.dist-info\\LICENSE',
    'DATA'),
-  ('cssutils-2.11.1.dist-info\\INSTALLER',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\cssutils-2.11.1.dist-info\\INSTALLER',
-   'DATA'),
-  ('cssutils-2.11.1.dist-info\\WHEEL',
-   'A:\\AI '
-   'Attendance\\FRAS\\venv\\Lib\\site-packages\\cssutils-2.11.1.dist-info\\WHEEL',
-   'DATA'),
   ('cssutils-2.11.1.dist-info\\METADATA',
    'A:\\AI '
    'Attendance\\FRAS\\venv\\Lib\\site-packages\\cssutils-2.11.1.dist-info\\METADATA',
+   'DATA'),
+  ('cssutils-2.11.1.dist-info\\RECORD',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\cssutils-2.11.1.dist-info\\RECORD',
+   'DATA'),
+  ('cssutils-2.11.1.dist-info\\top_level.txt',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\cssutils-2.11.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('cssutils-2.11.1.dist-info\\INSTALLER',
+   'A:\\AI '
+   'Attendance\\FRAS\\venv\\Lib\\site-packages\\cssutils-2.11.1.dist-info\\INSTALLER',
    'DATA'),
   ('multiprocessing\\popen_forkserver.pyc',
    'A:\\AI '
@@ -4779,14 +4780,14 @@
   ('__future__.pyc',
    'A:\\AI Attendance\\FRAS\\build\\main\\localpycs\\0\\__future__.pyc',
    'DATA'),
-  ('tracemalloc.pyc',
-   'A:\\AI Attendance\\FRAS\\build\\main\\localpycs\\0\\tracemalloc.pyc',
-   'DATA'),
   ('_py_abc.pyc',
    'A:\\AI Attendance\\FRAS\\build\\main\\localpycs\\0\\_py_abc.pyc',
    'DATA'),
   ('stringprep.pyc',
    'A:\\AI Attendance\\FRAS\\build\\main\\localpycs\\0\\stringprep.pyc',
+   'DATA'),
+  ('tracemalloc.pyc',
+   'A:\\AI Attendance\\FRAS\\build\\main\\localpycs\\0\\tracemalloc.pyc',
    'DATA'),
   ('automail.pyc',
    'A:\\AI Attendance\\FRAS\\build\\main\\localpycs\\0\\automail.pyc',

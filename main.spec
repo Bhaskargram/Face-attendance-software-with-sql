@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('haarcascade_frontalface_default.xml', '.'), ('cidlogo_cid.png', '.'), ('logo_resized.png', '.'), ('logo.png', '.'), ('automail.py', '.'), ('Capture_Image.py', '.'), ('check_camera.py', '.'), ('Recognize.py', '.'), ('Train_Image.py', '.'), ('utils.py', '.'), ('template.html', '.'), ('requirements.txt', '.'), ('school_management.db', '.'), ('setup_database.sql', '.'), ('Attendance', 'Attendance'), ('ImagesUnknown', 'ImagesUnknown'), ('StudentDetails', 'StudentDetails'), ('TrainingImage', 'TrainingImage'), ('train_recognizer.py', '.'), ('TrainingImageLabel', 'TrainingImageLabel')],
+    datas=[('haarcascade_frontalface_default.xml', '.'), ('cidlogo_cid.png', '.'), ('logo_resized.png', '.'), ('logo.png', '.'), ('automail.py', '.'), ('Capture_Image.py', '.'), ('check_camera.py', '.'), ('Recognize.py', '.'), ('Train_Image.py', '.'), ('utils.py', '.'), ('template.html', '.'), ('requirements.txt', '.'), ('school_management.db', '.'), ('setup_database.sql', '.'), ('Attendance', 'Attendance'), ('ImagesUnknown', 'ImagesUnknown'), ('StudentDetails', 'StudentDetails'), ('TrainingImage', 'TrainingImage'), ('train_recognizer.py', '.'), ('TrainingImageLabel', 'TrainingImageLabel'), ('train_model.py', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
