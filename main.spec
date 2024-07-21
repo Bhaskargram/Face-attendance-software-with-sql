@@ -5,8 +5,46 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('haarcascade_frontalface_default.xml', '.'), ('cidlogo_cid.png', '.'), ('logo_resized.png', '.'), ('logo.png', '.'), ('automail.py', '.'), ('Capture_Image.py', '.'), ('check_camera.py', '.'), ('Recognize.py', '.'), ('Train_Image.py', '.'), ('utils.py', '.'), ('template.html', '.'), ('requirements.txt', '.'), ('school_management.db', '.'), ('setup_database.sql', '.'), ('Attendance', 'Attendance'), ('ImagesUnknown', 'ImagesUnknown'), ('StudentDetails', 'StudentDetails'), ('TrainingImage', 'TrainingImage'), ('train_recognizer.py', '.'), ('TrainingImageLabel', 'TrainingImageLabel'), ('train_model.py', '.')],
-    hiddenimports=[],
+    datas=[
+        ('haarcascade_frontalface_default.xml', '.'), 
+        ('cidlogo_cid.png', '.'), 
+        ('logo_resized.png', '.'), 
+        ('logo.png', '.'), 
+        ('automail.py', '.'), 
+        ('Capture_Image.py', '.'), 
+        ('check_camera.py', '.'), 
+        ('Recognize.py', '.'), 
+        ('Train_Image.py', '.'), 
+        ('utils.py', '.'), 
+        ('template.html', '.'), 
+        ('requirements.txt', '.'), 
+        ('school_management.db', '.'), 
+        ('setup_database.sql', '.'), 
+        ('Attendance', 'Attendance'), 
+        ('ImagesUnknown', 'ImagesUnknown'), 
+        ('StudentDetails', 'StudentDetails'), 
+        ('TrainingImage', 'TrainingImage'), 
+        ('train_recognizer.py', '.'), 
+        ('TrainingImageLabel', 'TrainingImageLabel')
+    ],
+    hiddenimports=[
+        'PIL._imaging', 
+        'PIL._imagingtk', 
+        'PIL._imagingmath', 
+        'PIL._imagingft', 
+        'PIL.BmpImagePlugin', 
+        'PIL.ImageFile', 
+        'PIL.ImagePalette', 
+        'PIL.GifImagePlugin', 
+        'PIL.ImageChops', 
+        'PIL.ImageMath', 
+        'PIL.ImageOps', 
+        'PIL.ImageSequence', 
+        'PIL.JpegImagePlugin', 
+        'PIL.JpegPresets', 
+        'PIL.PpmImagePlugin', 
+        'PIL.PngImagePlugin'
+    ],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -14,6 +52,7 @@ a = Analysis(
     noarchive=True,
     optimize=0,
 )
+
 pyz = PYZ(a.pure)
 
 exe = EXE(

@@ -1,12 +1,12 @@
+# Capture_Image.py
+
 import csv
 import cv2
 import os
 import sys
 
 def resource_path(relative_path):
-    """ Get absolute path to resource, works for dev and for PyInstaller """
     try:
-        # PyInstaller creates a temp folder and stores the path in _MEIPASS
         base_path = sys._MEIPASS
     except Exception:
         base_path = os.path.abspath(".")
@@ -26,48 +26,40 @@ def takeImages():
 
     if is_number(Id) and name.isalpha():
         cam = cv2.VideoCapture(0)
-        harcascadePath = cascPath  # Use the updated path
+        harcascadePath = cascPath
         detector = cv2.CascadeClassifier(harcascadePath)
         sampleNum = 0
 
-        while(True):
+        while True:
             ret, img = cam.read()
             gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-            faces = detector.detectMultiScale(gray, 1.3, 5, minSize=(30,30),flags = cv2.CASCADE_SCALE_IMAGE)
-            for(x, y, w, h) in faces:
+            faces = detector.detectMultiScale(gray, 1.3, 5, minSize=(30,30), flags=cv2.CASCADE_SCALE_IMAGE)
+            for (x, y, w, h) in faces:
                 cv2.rectangle(img, (x, y), (x+w, y+h), (10, 159, 255), 2)
-                # Incrementing sample number
                 sampleNum += 1
-                # Saving the captured face in the dataset folder TrainingImage
                 cv2.imwrite("TrainingImage" + os.sep + name + "." + Id + '.' + str(sampleNum) + ".jpg", gray[y:y+h, x:x+w])
-                # Display the frame
                 cv2.imshow('frame', img)
-            # Wait for 100 milliseconds
             if cv2.waitKey(100) & 0xFF == ord('q'):
                 break
-            # Break if the sample number is more than 100
             elif sampleNum > 100:
                 break
         cam.release()
         cv2.destroyAllWindows()
-        res = "Images Saved for ID : " + Id + " Name : " + name
-        
-        # Ensure the directory exists
+        res = f"Images Saved for ID : {Id} Name : {name}"
+
         create_directory("StudentDetails")
 
         header = ["Id", "Name"]
         row = [Id, name]
-        if(os.path.isfile("StudentDetails"+os.sep+"StudentDetails.csv")):
-            with open("StudentDetails"+os.sep+"StudentDetails.csv", 'a+') as csvFile:
+        if os.path.isfile("StudentDetails" + os.sep + "StudentDetails.csv"):
+            with open("StudentDetails" + os.sep + "StudentDetails.csv", 'a+') as csvFile:
                 writer = csv.writer(csvFile)
-                writer.writerow(j for j in row)
-            csvFile.close()
+                writer.writerow(row)
         else:
-            with open("StudentDetails"+os.sep+"StudentDetails.csv", 'a+') as csvFile:
+            with open("StudentDetails" + os.sep + "StudentDetails.csv", 'a+') as csvFile:
                 writer = csv.writer(csvFile)
-                writer.writerow(i for i in header)
-                writer.writerow(j for j in row)
-            csvFile.close()
+                writer.writerow(header)
+                writer.writerow(row)
     else:
         if is_number(Id):
             print("Enter Alphabetical Name")

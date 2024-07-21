@@ -4,30 +4,41 @@ import time
 import cv2
 import pandas as pd
 
-def recognize_attendance():
+def ensure_directory_exists(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+def load_recognizer():
     recognizer = cv2.face.LBPHFaceRecognizer_create()
     recognizer.read("TrainingImageLabel/Trainner.yml")
+    return recognizer
+
+def load_cascade():
     harcascadePath = "haarcascade_frontalface_default.xml"
-    faceCascade = cv2.CascadeClassifier(harcascadePath)
-    df = pd.read_csv("StudentDetails/StudentDetails.csv")
-    font = cv2.FONT_HERSHEY_SIMPLEX
+    return cv2.CascadeClassifier(harcascadePath)
 
-    # Ensure the Attendance directory exists
-    if not os.path.exists("Attendance"):
-        os.makedirs("Attendance")
-
-    # Get current date and day name
+def get_attendance_file():
     today = datetime.datetime.now()
     date_str = today.strftime("%Y-%m-%d")
     day_name = today.strftime("%A")
     attendance_file = f"Attendance/Attendance_{date_str}_{day_name}.csv"
-    
+    return attendance_file
+
+def ensure_attendance_file_exists(file_path):
     col_names = ['Id', 'Name', 'Date', 'Time']
-    
-    # Create the attendance CSV file if it doesn't exist for the day
-    if not os.path.exists(attendance_file):
+    if not os.path.exists(file_path):
         attendance = pd.DataFrame(columns=col_names)
-        attendance.to_csv(attendance_file, index=False)
+        attendance.to_csv(file_path, index=False)
+
+def recognize_attendance():
+    recognizer = load_recognizer()
+    faceCascade = load_cascade()
+    df = pd.read_csv("StudentDetails/StudentDetails.csv")
+    font = cv2.FONT_HERSHEY_SIMPLEX
+
+    ensure_directory_exists("Attendance")
+    attendance_file = get_attendance_file()
+    ensure_attendance_file_exists(attendance_file)
 
     cam = cv2.VideoCapture(0)
     cam.set(3, 640)
@@ -38,51 +49,49 @@ def recognize_attendance():
     recognized_faces = set()
 
     while True:
-        _, im = cam.read()
+        ret, im = cam.read()
+        if not ret:
+            print("Failed to grab frame")
+            break
+
         gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
-        faces = faceCascade.detectMultiScale(gray, 1.2, 5, minSize=(int(minW), int(minH)), flags=cv2.CASCADE_SCALE_IMAGE)
-        
+        faces = faceCascade.detectMultiScale(
+            gray, scaleFactor=1.2, minNeighbors=5, 
+            minSize=(int(minW), int(minH)), flags=cv2.CASCADE_SCALE_IMAGE
+        )
+
         for (x, y, w, h) in faces:
-            cv2.rectangle(im, (x, y), (x+w, y+h), (10, 159, 255), 2)
-            Id, conf = recognizer.predict(gray[y:y+h, x:x+w])
+            cv2.rectangle(im, (x, y), (x + w, y + h), (10, 159, 255), 2)
+            Id, conf = recognizer.predict(gray[y:y + h, x:x + w])
 
             if conf < 100:
                 name = df.loc[df['Id'] == Id]['Name'].values[0] if not df[df['Id'] == Id].empty else 'Unknown'
                 confstr = "  {0}%".format(round(100 - conf))
-                tt = str(Id) + "-" + name
+                tt = f"{Id}-{name}"
 
                 if (100 - conf) > 67 and Id not in recognized_faces:
                     ts = time.time()
                     date = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d')
                     timeStamp = datetime.datetime.fromtimestamp(ts).strftime('%H:%M:%S')
-                    
-                    # Append attendance data to the CSV file
-                    attendance_data = pd.DataFrame([[Id, name, date, timeStamp]], columns=col_names)
+                    attendance_data = pd.DataFrame([[Id, name, date, timeStamp]], columns=['Id', 'Name', 'Date', 'Time'])
                     attendance_data.to_csv(attendance_file, mode='a', header=False, index=False)
                     print(f"Attendance logged: ID {Id}, Name {name}, Date {date}, Time {timeStamp}")
                     recognized_faces.add(Id)
-
-                    # Exit the loop after recognizing the face
                     cam.release()
                     cv2.destroyAllWindows()
                     return
 
-                tt = str(tt)[2:-2]
                 if (100 - conf) > 67:
-                    tt = tt + " [Pass]"
-                    cv2.putText(im, str(tt), (x+5, y-5), font, 1, (255, 255, 255), 2)
+                    tt += " [Pass]"
+                    cv2.putText(im, str(tt), (x + 5, y - 5), font, 1, (255, 255, 255), 2)
                 else:
                     cv2.putText(im, str(tt), (x + 5, y - 5), font, 1, (255, 255, 255), 2)
 
-                if (100 - conf) > 67:
-                    cv2.putText(im, str(confstr), (x + 5, y + h - 5), font, 1, (0, 255, 0), 1)
-                elif (100 - conf) > 50:
-                    cv2.putText(im, str(confstr), (x + 5, y + h - 5), font, 1, (0, 255, 255), 1)
-                else:
-                    cv2.putText(im, str(confstr), (x + 5, y + h - 5), font, 1, (0, 0, 255), 1)
+                conf_color = (0, 255, 0) if (100 - conf) > 67 else (0, 255, 255) if (100 - conf) > 50 else (0, 0, 255)
+                cv2.putText(im, str(confstr), (x + 5, y + h - 5), font, 1, conf_color, 1)
 
         cv2.imshow('Attendance', im)
-        if (cv2.waitKey(1) == ord('q')):
+        if cv2.waitKey(1) == ord('q'):
             break
 
     cam.release()

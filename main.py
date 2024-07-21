@@ -55,6 +55,17 @@ def setup_database():
     if not admin_exists:
         create_admin_account(cursor)
     conn.commit()
+
+    # Print tables and structure for debug
+    print("\nCurrent Tables in Database:")
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    tables = cursor.fetchall()
+    for table in tables:
+        print(table[0])
+        cursor.execute(f"PRAGMA table_info({table[0]})")
+        columns = cursor.fetchall()
+        for column in columns:
+            print(column)
     conn.close()
 
 def create_admin_account(cursor):
@@ -114,7 +125,7 @@ def mainMenu(role):
         print("[11] Create Sub-Admin Account")
         print("[12] List All Users (Debug)")
         print("[13] Clear All Users (Debug)")
-        print("[14] Delete Student by Name")
+        print("[14] Clear Student Data by Name")
         print("[15] Delete User by Name")
         print("[16] Delete Teacher by Name")
         print("[17] Quit")
@@ -124,7 +135,7 @@ def mainMenu(role):
         print("[2] View Student Data")
         print("[3] Create Teacher Account")
         print("[4] Create Student Account")
-        print("[5] Delete Student by Name")
+        print("[5] Clear Student Data by Name")
         print("[6] Delete Teacher by Name")
         print("[7] Auto Mail")
         print("[8] Quit")
@@ -136,7 +147,7 @@ def mainMenu(role):
         print("[4] Recognize & Attendance")
         print("[5] Auto Mail")
         print("[6] View Student Data")
-        print("[7] Delete Student by Name")
+        print("[7] Clear Student Data by Name")
         print("[8] Quit")
     
     while True:
@@ -170,7 +181,7 @@ def mainMenu(role):
                 elif choice == 13:
                     clear_all_users(role)
                 elif choice == 14:
-                    delete_student_by_name(role)
+                    clear_student_data_by_name(role)
                 elif choice == 15:
                     delete_user_by_name(role)
                 elif choice == 16:
@@ -190,7 +201,7 @@ def mainMenu(role):
                 elif choice == 4:
                     create_student_account(role)
                 elif choice == 5:
-                    delete_student_by_name(role)
+                    clear_student_data_by_name(role)
                 elif choice == 6:
                     delete_teacher_by_name(role)
                 elif choice == 7:
@@ -214,7 +225,7 @@ def mainMenu(role):
                 elif choice == 6:
                     view_student_data(role)
                 elif choice == 7:
-                    delete_student_by_name(role)
+                    clear_student_data_by_name(role)
                 elif choice == 8:
                     print("Thank You")
                     break
@@ -240,74 +251,73 @@ def Trainimages(role):
     mainMenu(role)
 
 def RecognizeFaces(role):
-    Recognize.recognize_attendance()
-    input("Enter any key to return to main menu")
+    while True:
+        quit_option = input("Do you want to quit Recognize & Attendance? (yes/no): ")
+        if quit_option.lower() == 'yes':
+            break
+        Recognize.recognize_attendance()
     mainMenu(role)
 
 def clearStudentData(role):
-    conn = sqlite3.connect(DATABASE)
-    cursor = conn.cursor()
-    cursor.execute("DELETE FROM students")
-    conn.commit()
-    conn.close()
-    print("All student data cleared.")
+    if role in ['admin', 'teacher']:
+        conn = sqlite3.connect(DATABASE)
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM students")
+        conn.commit()
+        conn.close()
+        print("All student data cleared.")
+    else:
+        print("You do not have permission to clear student data.")
+    input("Enter any key to return to main menu")
+    mainMenu(role)
+
+def clear_student_data_by_name(role):
+    if role in ['admin', 'sub_admin', 'teacher']:
+        student_name = input("Enter the name of the student to delete: ")
+        conn = sqlite3.connect(DATABASE)
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM students WHERE name = ?", (student_name,))
+        if cursor.rowcount > 0:
+            print(f"Student '{student_name}' deleted successfully.")
+        else:
+            print(f"No student found with the name '{student_name}'.")
+        conn.commit()
+        conn.close()
+    else:
+        print("You do not have permission to delete student data.")
     input("Enter any key to return to main menu")
     mainMenu(role)
 
 def clearAttendanceByDate(role):
-    date_str = input("Enter the date (YYYY-MM-DD) for which to clear attendance logs: ")
-    print(f"Attendance logs for {date_str} cleared.")
+    date_str = input("Enter the date (YYYY-MM-DD) for which you want to clear the attendance logs: ")
+    try:
+        date = datetime.datetime.strptime(date_str, '%Y-%m-%d').date()
+        conn = sqlite3.connect(DATABASE)
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM attendance WHERE date = ?", (date,))
+        conn.commit()
+        conn.close()
+        print(f"Attendance logs for {date_str} cleared.")
+    except ValueError:
+        print("Invalid date format. Please enter the date in YYYY-MM-DD format.")
     input("Enter any key to return to main menu")
     mainMenu(role)
 
 def create_teacher_account(role):
-    conn = sqlite3.connect(DATABASE)
-    cursor = conn.cursor()
-    username = input("Enter teacher username: ")
-    password = getpass.getpass("Enter teacher password: ")
-    try:
-        cursor.execute("INSERT INTO users (username, password, role) VALUES (?, ?, 'teacher')", (username, password))
-        conn.commit()
-        print(f"Teacher account '{username}' created successfully.")
-    except sqlite3.IntegrityError as e:
-        if "UNIQUE constraint failed" in str(e):
+    if role == 'admin':
+        conn = sqlite3.connect(DATABASE)
+        cursor = conn.cursor()
+        username = input("Enter teacher username: ")
+        password = getpass.getpass("Enter teacher password: ")
+        try:
+            cursor.execute("INSERT INTO users (username, password, role) VALUES (?, ?, 'teacher')", (username, password))
+            conn.commit()
+            print(f"Teacher account '{username}' created successfully.")
+        except sqlite3.IntegrityError:
             print("Username already exists. Please choose another username.")
-        elif "CHECK constraint failed" in str(e):
-            print("Role constraint failed. Please check the role value.")
-    conn.close()
-    input("Enter any key to return to main menu")
-    mainMenu(role)
-
-def create_student_account(role):
-    conn = sqlite3.connect(DATABASE)
-    cursor = conn.cursor()
-    student_id = input("Enter student ID: ")
-    name = input("Enter student name: ")
-    try:
-        cursor.execute("INSERT INTO students (student_id, name) VALUES (?, ?)", (student_id, name))
-        conn.commit()
-        print(f"Student account for '{name}' created successfully.")
-    except sqlite3.IntegrityError:
-        print("Student ID already exists. Please choose another ID.")
-    conn.close()
-    input("Enter any key to return to main menu")
-    mainMenu(role)
-
-def create_sub_admin_account(role):
-    conn = sqlite3.connect(DATABASE)
-    cursor = conn.cursor()
-    username = input("Enter sub-admin username: ")
-    password = getpass.getpass("Enter sub-admin password: ")
-    try:
-        cursor.execute("INSERT INTO users (username, password, role) VALUES (?, ?, 'sub_admin')", (username, password))
-        conn.commit()
-        print(f"Sub-admin account '{username}' created successfully.")
-    except sqlite3.IntegrityError as e:
-        if "UNIQUE constraint failed" in str(e):
-            print("Username already exists. Please choose another username.")
-        elif "CHECK constraint failed" in str(e):
-            print("Role constraint failed. Please check the role value.")
-    conn.close()
+        conn.close()
+    else:
+        print("You do not have permission to create a teacher account.")
     input("Enter any key to return to main menu")
     mainMenu(role)
 
@@ -316,13 +326,10 @@ def view_teacher_data(role):
     cursor = conn.cursor()
     cursor.execute("SELECT username FROM users WHERE role = 'teacher'")
     teachers = cursor.fetchall()
+    print("\nList of Teachers:")
+    for teacher in teachers:
+        print(teacher[0])
     conn.close()
-    if teachers:
-        print("Teacher Data:")
-        for teacher in teachers:
-            print(f"Username: {teacher[0]}")
-    else:
-        print("Don't have any data of teachers, please add data.")
     input("Enter any key to return to main menu")
     mainMenu(role)
 
@@ -331,65 +338,28 @@ def view_student_data(role):
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM students")
     students = cursor.fetchall()
-    conn.close()
-    if students:
-        print("Student Data:")
-        for student in students:
-            print(f"Student ID: {student[1]}, Name: {student[2]}")
-    else:
-        print("Don't have any data of students, please add data.")
-    input("Enter any key to return to main menu")
-    mainMenu(role)
-
-def delete_student_by_name(role):
-    conn = sqlite3.connect(DATABASE)
-    cursor = conn.cursor()
-    name = input("Enter the name of the student to delete: ")
-    cursor.execute("SELECT * FROM students WHERE name = ?", (name,))
-    student = cursor.fetchone()
-    if student:
-        cursor.execute("DELETE FROM students WHERE name = ?", (name,))
-        conn.commit()
-        print(f"Student '{name}' deleted successfully.")
-    else:
-        print(f"Student '{name}' not found or already deleted.")
+    print("\nList of Students:")
+    for student in students:
+        print(f"ID: {student[1]}, Name: {student[2]}")
     conn.close()
     input("Enter any key to return to main menu")
     mainMenu(role)
 
-def delete_teacher_by_name(role):
-    if role in ['admin', 'sub_admin']:
+def create_sub_admin_account(role):
+    if role == 'admin':
         conn = sqlite3.connect(DATABASE)
         cursor = conn.cursor()
-        username = input("Enter the username of the teacher to delete: ")
-        cursor.execute("SELECT * FROM users WHERE username = ? AND role = 'teacher'", (username,))
-        teacher = cursor.fetchone()
-        if teacher:
-            cursor.execute("DELETE FROM users WHERE username = ?", (username,))
+        username = input("Enter sub-admin username: ")
+        password = getpass.getpass("Enter sub-admin password: ")
+        try:
+            cursor.execute("INSERT INTO users (username, password, role) VALUES (?, ?, 'sub_admin')", (username, password))
             conn.commit()
-            print(f"Teacher '{username}' deleted successfully.")
-        else:
-            print(f"Teacher '{username}' not found or already deleted.")
+            print(f"Sub-admin account '{username}' created successfully.")
+        except sqlite3.IntegrityError:
+            print("Username already exists. Please choose another username.")
         conn.close()
-        input("Enter any key to return to main menu")
-        mainMenu(role)
     else:
-        print("You do not have permission to delete teachers.")
-        mainMenu(role)
-
-def delete_user_by_name(role):
-    conn = sqlite3.connect(DATABASE)
-    cursor = conn.cursor()
-    username = input("Enter the username of the user to delete: ")
-    cursor.execute("SELECT * FROM users WHERE username = ?", (username,))
-    user = cursor.fetchone()
-    if user:
-        cursor.execute("DELETE FROM users WHERE username = ?", (username,))
-        conn.commit()
-        print(f"User '{username}' deleted successfully.")
-    else:
-        print(f"User '{username}' not found or already deleted.")
-    conn.close()
+        print("You do not have permission to create a sub-admin account.")
     input("Enter any key to return to main menu")
     mainMenu(role)
 
@@ -398,31 +368,77 @@ def list_all_users(role):
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM users")
     users = cursor.fetchall()
+    print("\nList of All Users:")
+    for user in users:
+        print(f"ID: {user[0]}, Username: {user[1]}, Role: {user[3]}")
     conn.close()
-    if users:
-        print("All Users:")
-        for user in users:
-            print(f"ID: {user[0]}, Username: {user[1]}, Role: {user[3]}")
-    else:
-        print("No user data found.")
     input("Enter any key to return to main menu")
     mainMenu(role)
 
 def clear_all_users(role):
-    conn = sqlite3.connect(DATABASE)
-    cursor = conn.cursor()
-    cursor.execute("DELETE FROM users")
-    conn.commit()
-    conn.close()
-    print("All user data cleared.")
+    if role == 'admin':
+        conn = sqlite3.connect(DATABASE)
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM users")
+        conn.commit()
+        conn.close()
+        print("All users cleared.")
+    else:
+        print("You do not have permission to clear all users.")
+    input("Enter any key to return to main menu")
+    mainMenu(role)
+
+def delete_student_by_name(role):
+    if role in ['admin', 'sub_admin', 'teacher']:
+        student_name = input("Enter the name of the student to delete: ")
+        conn = sqlite3.connect(DATABASE)
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM students WHERE name = ?", (student_name,))
+        if cursor.rowcount > 0:
+            print(f"Student '{student_name}' deleted successfully.")
+        else:
+            print(f"No student found with the name '{student_name}'.")
+        conn.commit()
+        conn.close()
+    else:
+        print("You do not have permission to delete students.")
+    input("Enter any key to return to main menu")
+    mainMenu(role)
+
+def delete_user_by_name(role):
+    if role == 'admin':
+        user_name = input("Enter the username to delete: ")
+        conn = sqlite3.connect(DATABASE)
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM users WHERE username = ?", (user_name,))
+        if cursor.rowcount > 0:
+            print(f"User '{user_name}' deleted successfully.")
+        else:
+            print(f"No user found with the username '{user_name}'.")
+        conn.commit()
+        conn.close()
+    else:
+        print("You do not have permission to delete users.")
+    input("Enter any key to return to main menu")
+    mainMenu(role)
+
+def delete_teacher_by_name(role):
+    if role == 'admin':
+        teacher_name = input("Enter the username of the teacher to delete: ")
+        conn = sqlite3.connect(DATABASE)
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM users WHERE username = ? AND role = 'teacher'", (teacher_name,))
+        if cursor.rowcount > 0:
+            print(f"Teacher '{teacher_name}' deleted successfully.")
+        else:
+            print(f"No teacher found with the username '{teacher_name}'.")
+        conn.commit()
+        conn.close()
+    else:
+        print("You do not have permission to delete teachers.")
     input("Enter any key to return to main menu")
     mainMenu(role)
 
 if __name__ == "__main__":
     setup_database()
-    try:
-        welcome()
-    except Exception as e:
-        print(f"An error occurred: {e}")
-    input("Press Enter to exit...")
-
+    welcome()
