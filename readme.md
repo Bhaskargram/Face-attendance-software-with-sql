@@ -52,9 +52,11 @@ python -m venv venv
 python main.py
 ```
 
-<h2>🍰 Contribution Guidelines:</h2>
-
-  
+<h2>Usages Caution</h2>
+<p>If you use by deafault username and password then use that</p>
+<p>Username: bhaskar</p>
+<p>Password: 123</p>
+<p>Either if you want to use own password the you need to uninstall school_management.db database file from your folder after the cloning</p>
   
 <h2>💻 Built with</h2>
 
